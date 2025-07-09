@@ -1,10 +1,10 @@
-
+#include <math.h>
 #define pi  3.14
 float area_cone(int h,int r)
 {
 	float a,l;
-	l = sqrt(r * r + h * h);
-	a = pi * r * (r+l);
+	l = (float)sqrt(r * r + h * h);
+	a = (float)pi * r * (r+l);
 	return a;
 }
 
